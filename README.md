@@ -18,4 +18,4 @@ Docs: https://mnguyenht.github.io/specdriv/
 
 ## Stack
 
-TBD.
+Next.js + Tailwind. Run locally: `npm install`, then `npm run dev`.
