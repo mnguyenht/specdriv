@@ -1,5 +1,6 @@
 ---
 title: Vision
+nav_order: 2
 ---
 
 # Vision

@@ -1,3 +1,8 @@
 title: specdriv
 description: Specs for a spec-driven white t-shirt store.
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+search_enabled: true
+aux_links:
+  GitHub: https://github.com/mnguyenht/specdriv

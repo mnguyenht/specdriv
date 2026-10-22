@@ -1,5 +1,6 @@
 ---
 title: Definition of Done
+nav_order: 7
 ---
 
 # Definition of Done

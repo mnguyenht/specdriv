@@ -1,5 +1,6 @@
 ---
-title: Docs
+title: Home
+nav_order: 1
 ---
 
 # specdriv docs
