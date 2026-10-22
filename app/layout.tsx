@@ -23,7 +23,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <footer className="border-t border-foreground/10 p-6 text-center text-sm">
+          <a
+            href="https://mnguyenht.github.io/specdriv/"
+            className="underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-4"
+          >
+            Docs
+          </a>
+        </footer>
+      </body>
     </html>
   );
 }
